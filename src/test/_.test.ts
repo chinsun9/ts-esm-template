@@ -1,4 +1,4 @@
-import { hello } from '..';
+import { hello } from '../index.js';
 
 describe('test', () => {
   it('should be 1', () => {
