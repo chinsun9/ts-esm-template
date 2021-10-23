@@ -1,7 +1,7 @@
 {
   "name": "reponame",
   "version": "1.0.0",
-  "description": "",
+  "description": "ts esm template",
   "keywords": [],
   "homepage": "https://github.com/username/reponame#readme",
   "bugs": {
@@ -13,8 +13,10 @@
   },
   "license": "MIT",
   "author": "username <email>",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./dist/index.js",
   "scripts": {
+    "start": "node dist/index.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -37,5 +39,8 @@
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
