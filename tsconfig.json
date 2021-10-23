@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["es6", "esnext", "dom"],
-    "module": "commonjs",
-    "rootDir": "./src",
     "declaration": true,
+    "target": "ES2019",
+    "lib": ["ES2019", "ES2020.String", "DOM", "DOM.Iterable"],
+    "module": "ES2020",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "resolveJsonModule": false,
     "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
