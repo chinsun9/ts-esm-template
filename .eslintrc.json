@@ -19,14 +19,7 @@
     "no-console": "off",
     "no-unused-vars": "off",
     "no-shadow": "off",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "ts": "never"
-      }
-    ]
+    "import/no-unresolved": "off"
   },
   "settings": {
     "import/resolver": {
